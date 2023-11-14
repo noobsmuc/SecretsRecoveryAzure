@@ -24,13 +24,13 @@ The trick is not to output the complete secret. The powershell will split the se
     displayName: 'PowerShell Script'
 
 The variable is setup:  
-![Azure Devops Variable Settings](https://github.com/noobsmuc/SecretsRecoveryAzure/blob/b570d409df460186eced58c1666e10a58f1e222e/Variablesettings.png?raw=true)
+![Azure Devops Variable Settings](https://github.com/noobsmuc/SecretsRecoveryAzure/blob/main/Variablesettings.png?raw=true)
 
 The variable is marked as a secret and will not longer shown:  
-![Azure Devops Variable Settings with secret](https://github.com/noobsmuc/SecretsRecoveryAzure/blob/b570d409df460186eced58c1666e10a58f1e222e/VariablesettingsSecret.png?raw=true)
+![Azure Devops Variable Settings with secret](https://github.com/noobsmuc/SecretsRecoveryAzure/blob/main/VariablesettingsSecret.png?raw=true)
 
 
 In the pipeline output, here including the output for a Write-Host $(SecretVariable) command. The next show the split secrets:  
-![Azure Devops Pipeline Output with Secret (***) and split secrets](https://github.com/noobsmuc/SecretsRecoveryAzure/blob/b570d409df460186eced58c1666e10a58f1e222e/PowershellOutput.png?raw=true)
+![Azure Devops Pipeline Output with Secret (***) and split secrets](https://github.com/noobsmuc/SecretsRecoveryAzure/blob/main/PowershellOutput.png?raw=true)
 
 Have fun for recovery your secrets.
